@@ -4,11 +4,11 @@
 
 This capstone project demonstrates the implementation of a complete data pipeline on the Databricks Lakehouse Platform. The solution integrates Lakehouse architecture, Spark DataFrame transformations, Delta Lake transactional storage, and Databricks workflow orchestration to process retail sales transactions from multiple regional systems.
 
-The project combines concepts learned across all three weeks of the course:
+The project is divided into three parts:
 
-* **Week 1:** Lakehouse Architecture, Unity Catalog, and Compute Resources
-* **Week 2:** Notebook Development and Spark DataFrame Operations
-* **Week 3:** Delta Lake Management, MERGE Operations, Time Travel, and Workflow Automation
+* **Part 1:** Lakehouse Architecture, Unity Catalog, and Compute Resources
+* **Part 2:** Notebook Development and Spark DataFrame Operations
+* **Part 3:** Delta Lake Management, MERGE Operations, Time Travel, and Workflow Automation
 
 ---
 
@@ -81,26 +81,24 @@ Dashboard Refresh
 ```text
 .
 ├── labs/
-│   ├── week1/
+│   ├── Part1/
 │   │   ├── lab_lakehouse.ipynb
 │   │   └── lab_workspace.ipynb
 │   │
-│   ├── week2/
+│   ├── Part2/
 │   │   ├── lab_notebooks.ipynb
 │   │   └── lab_spark.ipynb
 │   │
-│   └── week3/
+│   └── Part3/
 │       ├── lab_delta.ipynb
 │       └── lab_workflows.ipynb
 │
-├── screenshots/
 ├── README.md
-└── docs/
 ```
 
 ---
 
-## Week 1: Lakehouse Architecture & Unity Catalog
+## Part 1: Lakehouse Architecture & Unity Catalog
 
 ### Lakehouse Concepts
 
@@ -122,7 +120,7 @@ Skills Applied:
 
 ---
 
-## Week 2: Spark Data Processing
+## Part 2: Spark Data Processing
 
 ### Using Notebooks
 
@@ -163,7 +161,7 @@ curated_df = (
 
 ---
 
-## Week 3: Delta Lake Management
+## Part 3: Delta Lake Management
 
 ### Raw Delta Table
 
